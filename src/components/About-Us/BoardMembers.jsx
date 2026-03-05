@@ -4,7 +4,7 @@ import HeroSection from '../common/components/HeroSection';
 import { boardMembersHero } from '../common/data/heroData';
 import rajaramImg from "/board-members/Mr. Rajaram D.Pangavhane.png";
 import dhanishaImg from "/board-members/Dr.Dhanisha G. Pangavhane.png";
-import gauravImg from "/board-members/Mr. Gaurav R. Pangavhane.png";
+import gauravImg from "/board-members/Mr. Gaurav R. Pangavhane.jpeg";
 import ashwiniImg from "/board-members/Mrs. Ashwini A Bhosale.jpg";
 import sheetalImg from "/board-members/Mrs. Sheetal Y. Mule.jpg";
 import prabhavatiImg from "/board-members/Mrs.Prabhavati R. Pangavhane.jpg";
