@@ -593,7 +593,7 @@ export const electronicsEnggData = {
         title: "HOD's Desk",
 
         name: 'Prof. P.V. DHURVE',
-        image: '/our-courses/electronics-hod.png',
+        image: '',
         designation: 'HOD',
         qualification: 'ME-Computer Engineering, BE-Computer Engineering',
 
