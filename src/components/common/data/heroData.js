@@ -1,56 +1,3 @@
-// import SecretaryHeroImage from '../../../assets/posters/secretary.png';
-// import VicePresidentHeroImage from '../../../assets/posters/vice president.png'
-// import ContactHeroImage from '../../../assets/posters/contactus.png'
-// // import MechanicalEnggHeroImage from '../../../assets/posters/mechanicalHero.png'
-// import AdmissionFormHero from '../../../assets/posters/admissionHero.png'
-// import FEAdmissionHeroImage from '../../../assets/posters/feAdmissionHero.webp'
-// import IQACHeroImage from '../../../assets/posters/iqacHero.png'
-// import IIQCHeroImage from '../../../assets/posters/iiqcHero.jpg'
-// import NIRFHeroImage from '../../../assets/posters/nirfHero.jpg'
-// import NAACHeroImage from '../../../assets/posters/naacHero.png'
-// import CycleHeroImage from '../../../assets/posters/cycleHero.jpg'
-// import BestHeroImage from '../../../assets/posters/bestHero.png'
-// import AQARDocHeroImage from '../../../assets/posters/aqarDocHero.png'
-// import AQAR2HeroImage from '../../../assets/posters/aqar2Hero.jpg'
-// import AQAR1HeroImage from '../../../assets/posters/aqar1Hero.jpg'
-// import FeedbackHeroImage from '../../../assets/posters/feedbackHero.png'
-// import FeeStructureHeroImage from '../../../assets/posters/courseHero.png'
-
-
-// export const secretaryHero = {
-//     backgroundImage: SecretaryHeroImage,
-//     title: "General Secretary's Desk",
-//     subtitle: "Discover excellence in education and innovation.",
-//     overlay: true,
-// };
-
-// export const vicePresidentDeskHero = {
-//     backgroundImage: VicePresidentHeroImage,
-//     title: "Vice President's Desk",
-//     subtitle: "Discover excellence in education and innovation.",
-//     overlay: true,
-// };
-
-
-
-
-// export const approvalsAffiliationsHero = {
-//     backgroundImage: BoardMembersHeroImage,
-//     title: "Approvals & Affiliations",
-//     subtitle: "Official documentation and academic recognitions.",
-//     overlay: true,
-// };
-
-// export const contactHero = {
-//     backgroundImage: ContactHeroImage,
-//     title: "Contact Us",
-//     subtitle: "We are here to help you. Reach out to us for any queries.",
-//     overlay: true,
-// };
-
-
-
-
 import MissionHeroImage from '/posters/mission.png';
 import PresidentDeskHeroImage from '/posters/president-hero.png';
 import BoardMembersHeroImage from '/posters/board-member.png';
@@ -77,6 +24,7 @@ import TransportationHeroImage from '/facilities/Transport.jpg';
 import AlumniHeroImage from '/posters/amumni.webp';
 import grievancesHero from '/banners/grievancesHero.jpeg';
 import ContactHeroImage from "/posters/contactHero.png";
+import HostelHeroImage from '/facilities/Secure Hostels.webp';
 
 export const contactHero = {
     title: "Contact Us",
@@ -196,7 +144,8 @@ export const GalleryHero = {
     title: "Gallery",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
-}
+};
+
 export const presidentDeskHero = {
     backgroundImage: PresidentDeskHeroImage,
     title: "President's Desk",
@@ -329,4 +278,11 @@ export const alumniHero = {
     backgroundImage: AlumniHeroImage,
     buttonText: "View Alumni",
     buttonLink: "#alumni",
+};
+
+export const hostelHero = {
+    backgroundImage: HostelHeroImage,
+    title: "Hostel",
+    subtitle: "Experience comfortable and secure living spaces designed for students.",
+    overlay: true,
 };

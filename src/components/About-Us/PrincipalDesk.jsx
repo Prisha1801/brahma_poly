@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import HeroSection from '../common/components/HeroSection';
 import { principalDeskHero } from '../common/data/heroData';
-import PrincipalImage from '/posters/principal.png';
+import PrincipalImage from '/posters/principal.jpeg';
 
 const PrincipalDesk = () => {
     const ref = useRef(null);
@@ -45,23 +45,12 @@ const PrincipalDesk = () => {
 
                                 <div className="mt-6">
                                     <h4 className="text-xl font-semibold text-[#0b2c4d]">
-                                        Dr. Hari N Kudal
+                                        Prof. V.P.Nikhade
                                     </h4>
                                     <p className="text-gray-600 mt-2">Principal</p>
                                     <p className="text-gray-500 text-sm mt-1">
-                                        Brahma Valley College of Engineering & Research Institute
+                                        Brahma Valley College Of Technical Education (Polytechnic)
                                     </p>
-                                    {/* LINK 
-                                    now here will be option view resume on click we will open a pdf in another tab pdf is in public/pdf/principal.pdf
-                                    */}
-                                    <a
-                                        href="/pdf/principal_resume.pdf"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-blue-600 hover:underline"
-                                    >
-                                        View Resume
-                                    </a>
 
                                 </div>
                             </motion.div>
@@ -77,22 +66,23 @@ const PrincipalDesk = () => {
                                 </h2>
 
                                 <p className="text-gray-600 leading-8 text-justify mb-4">
-                                    Welcome to <strong>Brahma Valley College of Engineering & Research Institute</strong>,
-                                    Where innovation, excellence, and value-based education come together to shape future-ready professionals.
-
-
+                                    I firmly believe that technical education has great potential to change the quality of people.
                                 </p>
 
                                 <p className="text-gray-600 leading-8 text-justify mb-4">
-                                    Our college offers a wide range of Engineering Programs—From traditional disciplines like Mechanical, Civil, Electrical, and Computer Engineering to modern fields in Information Technology and Web Technologies. While we embrace the latest industry trends, We continue to uphold the importance of core Engineering Foundations.
-                                </p>
-
-                                <p className="text-gray-600 leading-8 text-justify mb-4">
-                                    We maintain strong collaborations with industry partners, allowing students to gain valuable hands-on experience that complements classroom learning. This practical exposure ensures our graduates are well-prepared to meet the demands of today's global workforce.
+                                    With the emergence of a vast domestic market and relatively low - cost workers with advanced technical skills and knowledge, India is on the verge of becoming a superpower.
                                 </p>
 
                                 <p className="text-gray-600 leading-8 text-justify">
-                                    At Brahma Valley, We are committed to producing not just expert engineers but also responsible citizens who will contribute to national growth and global progress.
+                                    Globalisation led by rapid and breath-taking advances in information and communication technologies, has resulted in the creation of the knowledge economy, an economy that creates, disseminates and uses knowledge to enhance growth and development.
+                                </p>
+
+                                <p className="text-gray-600 leading-8 text-justify">
+                                    I therefore strongly advise eligible students to pursue technical education as their careers. Recognizing the trends, relevance and opportunities, the management of Brahma Valley College of Technical Education, Nashik has established this Institute with an objective to provide quality education. I welcome you to the 'Brahma Valley College of Technical Education' Campus. Brahma, the God of creation, who created this world! During our endeavor we take every effort to transform our students, with all necessary knowledge and skills, into competent technocrats for the competitive world of tomorrow. Staying at Brahma Valley College of Technical Education is a uniquely rewarding experience. We always place students above everything.
+                                </p>
+
+                                <p className="text-gray-600 leading-8 text-justify font-bold">
+                                    Thankyou!
                                 </p>
                             </motion.div>
 

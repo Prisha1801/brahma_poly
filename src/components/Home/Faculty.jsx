@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaUserCircle } from "react-icons/fa"; // Importing react-icons for default icon
 
 const faculties = [
   {
@@ -22,6 +23,16 @@ const faculties = [
     designation: "SENIOR FACULTY",
     image: "/faculties/PROF. MANDAR MANOHAR KULKARNI.jpg",
   },
+  {
+    name: "PROF. P. R. JADHAV",
+    designation: "HOD, CIVIL ENGINEERING",
+    image: "", // No image provided
+  },
+  {
+    name: "PROF. P.V.OGALE",
+    designation: "HOD, MSC MATHEMATICS",
+    image: "", // No image provided
+  }
 ];
 
 const variants = {
@@ -91,12 +102,16 @@ const Faculty = () => {
                   key={faculty.name}
                   className="bg-white rounded-2xl shadow-lg overflow-hidden w-full max-w-xs flex-shrink-0 mb-16"
                 >
-                  <div className="h-80 overflow-hidden bg-gray-100">
-                    <img
-                      src={faculty.image}
-                      alt={faculty.name}
-                      className="w-full h-full object-contain"
-                    />
+                  <div className="h-80 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    {faculty.image ? (
+                      <img
+                        src={faculty.image}
+                        alt={faculty.name}
+                        className="w-full h-full object-contain"
+                      />
+                    ) : (
+                      <FaUserCircle className="text-gray-400 text-9xl" />
+                    )}
                   </div>
                   <div className="p-5 text-center">
                     <h3 className="font-semibold text-lg text-gray-800 leading-tight">

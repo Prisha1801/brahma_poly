@@ -646,7 +646,7 @@ Established in 2006, the department began with two well-equipped laboratories—
         name: 'PROF. P.V. OGALE',
         qualification: 'MSC MATHEMATICS',
         designation: 'HOD',
-        image: '/our-courses/science-hod.png',
+        image: '',
 
         aboutTitle: 'Message from HOD',
 
@@ -666,10 +666,10 @@ Our faculty members are highly committed and work diligently to achieve these ed
     facultySection: {
         title: 'Faculty',
         faculty: [
-            { id: 1, name: 'PROF. PANKAJ V. OGALE', image: '/gallery/science-faculties/PROF. PANKAJ V. OGALE.jpg' },
+            { id: 1, name: 'PROF. PANKAJ V. OGALE', image: '' },
             { id: 2, name: 'PROF. JAGRUTI A. KASAR', image: '/gallery/science-faculties/PROF. JAGRUTI A. KASAR.jpg' },
-            { id: 3, name: 'PROF. P.A. MANDHARE', image: '/gallery/science-faculties/PROF. P.A. MANDHARE.jpg' },
-            { id: 4, name: 'PROF. V.U. MHASKE', image: '/gallery/science-faculties/PROF. V.U. MHASKE.jpg' },
+            { id: 3, name: 'PROF. P.A. MANDHARE', image: '' },
+            { id: 4, name: 'PROF. V.U. MHASKE', image: '' },
         ]
     }
 };

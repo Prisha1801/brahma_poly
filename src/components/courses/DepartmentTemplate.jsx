@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import HeroSection from '../common/components/HeroSection';
-import { FaChevronLeft, FaChevronRight, FaTimes, FaExternalLinkAlt, FaWrench, FaBuilding, FaFileAlt, FaRulerCombined, FaLeaf } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaTimes, FaExternalLinkAlt, FaWrench, FaBuilding, FaFileAlt, FaRulerCombined, FaLeaf, FaUserCircle } from "react-icons/fa";
 
 
 const SectionHeader = ({ title }) => (
@@ -125,7 +125,11 @@ const HodSection = ({ data }) => (
             <div className="flex flex-wrap gap-6 items-start mb-5">
                 <div className="flex flex-col items-center">
                     <div className="w-48 h-48 rounded bg-slate-100 border-2 border-slate-300 flex items-center justify-center text-5xl overflow-hidden">
-                        <img src={data.image} alt={data.name} className='w-full h-full object-contain' />
+                        {data.image ? (
+                            <img src={data.image} alt={data.name} className='w-full h-full object-contain' />
+                        ) : (
+                            <FaUserCircle className="text-gray-400 text-9xl" />
+                        )}
                     </div>
                     <p className="mt-2 font-semibold text-gray-800 text-center text-xs">{data.name}</p>
                     <p className="text-xs text-gray-500 text-center">{data.designation}</p>
@@ -227,15 +231,15 @@ const FacultyCardsSection = ({ data }) => (
                     {data.faculty.map((faculty) => (
                         <div key={faculty.id} className="border border-gray-200 rounded-lg p-4 flex flex-col items-center text-center">
                             <div className="w-full h-40 bg-gray-100 rounded mb-3 flex items-center justify-center overflow-hidden">
-                                <img
-                                    src={faculty.image}
-                                    alt={faculty.name}
-                                    className="w-full h-full object-contain"
-                                    onError={(e) => {
-                                        e.target.style.display = 'none';
-                                        e.target.parentNode.innerHTML = `<span class="text-gray-400 text-xs">${faculty.name}</span>`;
-                                    }}
-                                />
+                                {faculty.image ? (
+                                    <img
+                                        src={faculty.image}
+                                        alt={faculty.name}
+                                        className="w-full h-full object-contain"
+                                    />
+                                ) : (
+                                    <FaUserCircle className="text-gray-400 text-6xl" />
+                                )}
                             </div>
                             <h4 className="font-bold text-sm text-slate-900">{faculty.name}</h4>
                             {faculty.designation && (

@@ -49,6 +49,7 @@ import SCSTCommittee from "./components/student-guide/SCSTCommittee";
 import SocialLifeCommittee from "./components/student-guide/SocialLifeCommittee";
 import VishakhaCommittee from "./components/Grievance/VishakhaCommittee";
 import Contact from "./pages/Contact";
+import Hostel from "./facilities/Hostel";
 
 function App() {
   useEffect(() => {
@@ -115,6 +116,7 @@ function App() {
           <Route path="/facilities/library" element={<Library />} />
           <Route path="/facilities/sports" element={<Sports />} />
           <Route path="/facilities/cafeteria" element={<Cafeteria />} />
+          <Route path="/facilities/hostel" element={<Hostel />} />
           <Route path="/facilities/transport" element={<Transportation />} />
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/grievances/student-grievances" element={<StudentGrievance />} />
