@@ -10,7 +10,7 @@ const CampusLife = () => {
 
     return (
         <section className="bg-gray-50 py-16">
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-4xl mx-auto px-6">
                 <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8 underline underline-offset-8">
                     Campus Life
                 </h2>
@@ -19,14 +19,14 @@ const CampusLife = () => {
                         <img
                             src="/campus-life/c1.jpg"
                             alt="Campus Life 1"
-                            className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
+                            className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
                         />
                     </div>
                     <div className="rounded-xl overflow-hidden shadow-lg">
                         <img
                             src="/campus-life/c2.jpg"
                             alt="Campus Life 2"
-                            className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
+                            className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
                         />
                     </div>
                 </div>
