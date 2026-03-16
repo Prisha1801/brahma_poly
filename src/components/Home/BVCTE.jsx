@@ -85,7 +85,7 @@ function BVCTE() {
             </p>
 
             <Link
-              to="/about#details"
+              to="/president-desk"
               className="inline-block bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md font-medium transition"
             >
               Learn More
